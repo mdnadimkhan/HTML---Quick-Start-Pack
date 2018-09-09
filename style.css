@@ -10,6 +10,7 @@ Tags:
 /*=========== TABLE OF CONTENTS ========
 ** Common Css
 ** Preloader Css
+** Responsive Css
 
 
 ======================================*/
@@ -225,4 +226,25 @@ textarea {
 	transform: translateY(-100%);
 	-webkit-transition: all 0.3s 1s ease-out;
 	transition: all 0.3s 1s ease-out;
+}
+
+
+/*======================
+    Responsive Css
+======================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
 }
